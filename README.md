@@ -3,10 +3,6 @@ Blog_Django
 ![](https://img-blog.csdnimg.cn/20200613191600362.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzk0MTM2NA==,size_16,color_FFFFFF,t_70)
 ![](https://img-blog.csdnimg.cn/20200614085714357.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzk0MTM2NA==,size_16,color_FFFFFF,t_70)
 
-博客介绍地址:
-[https://blog.csdn.net/weixin_43941364/article/details/106736753](https://blog.csdn.net/weixin_43941364/article/details/106736753)
-### 作者
-    LSU：王硕
 ### 项目介绍
 使用 `Django` 框架开发的个人博客网站：网站按照用户进行区分，用户为独立创作者可以自由发布文章，同时任何人都可以看到其他所有人的文章，只以作者作为区分。
 
@@ -60,7 +56,7 @@ pip install Pillow
 
 
 ### 测试用户
-如果你不想注册了，那就可以使用下面几个用户体验一下（前提是你使用了我提供的 SQL 文件建库）
+如果你不想注册了，那就可以使用下面几个用户体验一下
 - `test` 
 用户名: `17858918832` 
 密码: `1111111111` (10个1)
@@ -71,7 +67,6 @@ pip install Pillow
 
 其中  `admin` 为超级管理员用户，用于登陆 `Django` 自带的 `admin` 后台管理系统； <br>
 
-还有一个用户是我自己的叫: `wangshuo`
 
 ### 待完善功能
 有些功能因为时间关系还没做，等以后闲了再补上，主要是内容很简单，相信大家能看懂这些代码肯定也能自己实现下面的功能：
